@@ -1,0 +1,22 @@
+[
+    {
+        "heading": "Sujuuko englanti?",
+        "intro": "<p>Tietojenkäsittelytieteen laitos on huolehtinut kansainvälisen henkilöstönsä hyvinvoinnista jo pitkään. Englannin käyttäminen päivittäisessä viestinnässä on tärkeä osa tätä työtä.</p>\n<img alt=\"\" src=\"http://www.cs.helsinki.fi/webfm_send/1001\">\n<p>– Ei ole mitään järkeä pyrkiä menestymään vain omalla alueellaan. Jos haluamme kehittyä, meidän on pyrittävä tekemään kansainvälistä huippututkimusta, korostaa saksalaisprofessori <strong>Jürgen Münch</strong>, joka on johtanut Helsingin yliopiston tietojenkäsittelytieteen laitoksen SSE (Software Systems Engineering) -tutkimusryhmää vuodesta 2011.</p>",
+        "url": "http://www.cs.helsinki.fi/story/75806/sujuuko-englanti"
+    },
+    {
+        "heading": "Linus Torvalds innosti alan opiskelijoita laitoksella",
+        "intro": "<img alt=\"\" src=\"http://www.cs.helsinki.fi/webfm_send/991\">\n<p>Laitoksen alumni, Helsingin yliopiston kunniatohtori, Suomen tunnetuin tietojenkäsittelytieteen edustaja maailmalla <strong>Linus Torvalds</strong> vieraili Kumpulan kampuksella 23. lokakuuta. Hän vastaili opiskelijoiden ja henkilökunnan kysymyksiin vapaamuotoisessa keskustelutilaisuudessa, jossa noin 300 läsnäolijaa tenttasivat häntä. Koska sana oli vapaa ja Torvalds painotti sitä, että kaikkea saa kysyä, kysymykset vaihtelivat laidasta laitaan</p>",
+        "url": "http://www.cs.helsinki.fi/story/75759/linus-torvalds-innosti-alan-opiskelijoita-laitoksella"
+    },
+    {
+        "heading": "Avointa maksutonta massiivista opiskelua",
+        "intro": "<img alt=\"Ohjelmoinnin MOOC-logo\" src=\"http://mooc.cs.helsinki.fi/sites/mooc.cs.helsinki.fi/files/mooc-small.png\">\n<p>Tietojenkäsittelytieteen laitos järjestää avointa, maksutonta ja massiivista <a href=\"http://mooc.cs.helsinki.fi/\">MOOC-ohjelmointikurssia</a>. Se on tapa suorittaa etäopiskeluna ensimmäisen vuoden ohjelmointikurssit ja lisäksi mahdollisuus saada opinto-oikeus ilman tavallista pääsykoemenettelyä. Osallistujien pyynnöstä tarjolla on myös haastavampi <a href=\"http://mooc.cs.helsinki.fi/algo/\">AlgoMOOC</a> -kurssi tietorakenteista ja algoritmeistä. Tämä kurssi on avoin kaikille, myös laitoksen opiskelijoille ja opettajille. Peruskoululaisille suunnattu peliohjelmointiin keskittyvä MOOC-kurssi on tarjolla tammikuusta 2013 lähtien. </p>",
+        "url": "http://www.cs.helsinki.fi/story/68191/avointa-maksutonta-massiivista-opiskelua"
+    },
+    {
+        "heading": "Professorista pääjohtajaksi",
+        "intro": "<img alt=\"\" src=\"http://www.cs.helsinki.fi/sites/default/files/root/hallinto/etusivunkertomukset/heikki_mannila2012.jpg\">\n<p>Suomen Akatemialla oli 16.12.2011 mielenkiintoista tiedotettavaa: ”Valtioneuvosto on nimittänyt professori, akateemisten asioiden vararehtori Heikki Mannilan Suomen Akatemian pääjohtajaksi. Virka täytetään ajalle 1.3.2012–28.2.2017.” Mutta kenestä oikein on kysymys?</p>",
+        "url": "http://www.cs.helsinki.fi/story/70814/professorista-p-johtajaksi"
+    }
+]
