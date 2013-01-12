@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import 'normalize.css';
+
+@media all {
+    html {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    a {
+        color: #27638C;
+    }
+}
+
+@media screen {
+    #header {
+        background: #E9AF43 no-repeat;
+        padding: 0.4em 0.7em 0.4em;
+        color: #FFF;
+        font-size: 1rem;
+        border-bottom: 1px solid #AAA;
+    }
+    #header::before {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: no-repeat url(img/logo.png);
+        opacity: 0.35;
+    }
+    #header h1 {
+        margin: 0;
+        font-size: 1.4em;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #header .desc {
+        font-size: 0.75em;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+    #header .university, #header .faculty {
+        display: block;
+        font-size: 0.8em;
+        font-weight: 600;
+        color: #656565;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0.4em 0;
+    }
+    #header .faculty {
+        color: #FFF;
+    }
+    #header h1, #header .desc {
+        text-shadow: 0 0 2px #692F13;
+    }
+    #nav ul {
+        padding: 0;
+        margin: 0.5em 0 0;
+    }
+    #nav li {
+        box-sizing: border-box;
+        display: block;
+        border: 1px solid #AAA;
+        margin: 1% 0;
+    }
+    #nav a {
+        display: block;
+        border: 1px solid #FFF;
+        padding: 0 0.7em;
+        color: #000;
+        text-decoration: none;
+        font-size: 0.80rem;
+        font-weight: 600;
+        line-height: 1.9;
+    }
+
+    #main {
+        min-height: 100px;
+        padding: 1em;
+    }
+    #main::before {
+        content: " ";
+        display: block;
+        width: 100%;
+        height: 50px;
+        background: -webkit-linear-gradient(top, rgba(222,222,222,1) 0%, rgba(222,222,222,0) 100%);
+        position: absolute;
+        margin: -1em -1em -50px -1em;
+    }
+
+    footer {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+        color: #444;
+    }
+    footer p {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #header {
+        background-image: url(img/logo.png);
+        background-position: 10px 17px;
+        background-size: 70px 70px;
+    }
+    #header::before {
+        display: none;
+    }
+    #header h1 {
+        margin-top: 0.5em;
+    }
+    #header .desc {
+        max-width: 500px;
+    }
+    #header h1, #header .desc, #header .university, #header .faculty {
+        margin-left: 85px;
+    }
+    #nav li {
+        display: inline-block;
+        width: 49%;
+        margin-left: 2%;
+    }
+    #nav li:nth-child(1), #nav li:nth-child(2n+1) {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #nav li {
+        width: 32.66%;
+        margin: 0.5% 0 0.5% 1%;
+    }
+    #nav li:nth-child(2n+1) {
+        margin-left: 1%;
+    }
+    #nav li:nth-child(3n+1) {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #header {
+        background-size: auto auto;
+        padding-bottom: 0;
+    }
+    #header h1 {
+        margin-top: 0.5em;
+        font-size: 1.6em;
+    }
+    #header h1, #header .desc, #header .university, #header .faculty {
+        margin-left: 120px;
+    }
+    #nav ul {
+        margin-top: 1em;
+        margin-bottom: -1px;
+    }
+    #nav li {
+        width: auto;
+        margin: 0 0.3em 0 0;
+    }
+    #nav li:nth-child(n) {
+        margin-left: 0;
+    }
+    #nav a {
+        padding: 0 0.5em;
+        border-bottom: 0;
+    }
+    #nav .curr, #nav li:hover {
+        background-color: #DEDEDE;
+        border-color: #DEDEDE;
+    }
+    #nav .curr a, #nav li:hover a {
+        border-color: #DEDEDE;
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #header .university, #header .faculty {
+        position: absolute;
+        top: 0.90em;
+        right: 1em;
+    }
+    #header .faculty {
+        top: 2em;
+    }
+    #nav ul {
+        margin-top: 2.5em;
+    }
+}
+
+@media screen and (min-width: 910px) {
+    html {
+        background: #DDD;
+        height: 100%;
+    }
+    body {
+        position: relative;
+        width: 900px;
+        min-height: 100%;
+        margin: 0 auto;
+        background: #FFF;
+        border: 1px solid #AAA;
+        border-width: 0 1px;
+        box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+    }
+}
