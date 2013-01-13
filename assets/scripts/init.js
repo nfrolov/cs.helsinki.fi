@@ -19,4 +19,10 @@ require(['jquery'], function ($) {
             init(el);
         });
     });
+    $('#news-studies').each(function () {
+        var el = this;
+        require(['app/init.news.studies'], function (init) {
+            init(el);
+        });
+    });
 });
