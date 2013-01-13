@@ -1,0 +1,90 @@
+[
+    {
+        "investigator": "Floréen, P",
+        "name": "Adaptive Computing"
+    },
+    {
+        "investigator": "Hyvärinen, A.",
+        "name": "Neuroinformatics"
+    },
+    {
+        "investigator": "Hyvönen, E.",
+        "name": "Semantic Computing Research Group (SeCo)"
+    },
+    {
+        "investigator": "Jacucci, G.",
+        "name": "Interactive Systems"
+    },
+    {
+        "investigator": "Kangasharju, J.",
+        "name": "Collaborative Networking (CoNe)"
+    },
+    {
+        "investigator": "Kivinen, J.",
+        "name": "Machine Learning"
+    },
+    {
+        "investigator": "Koivisto, M.",
+        "name": "Sums of Products"
+    },
+    {
+        "investigator": "Kojo, M.",
+        "name": "Wireless Internet (WInt)"
+    },
+    {
+        "investigator": "Kurhila, J.",
+        "name": "Agile Education Research"
+    },
+    {
+        "investigator": "Kutvonen, L",
+        "name": "Collaborative and Interoperable Computing (Cinco)"
+    },
+    {
+        "investigator": "Lemström, K.",
+        "name": "Computer-Assisted Music Analysis, Comparison and Retrieval"
+    },
+    {
+        "investigator": "Mäkinen, V.",
+        "name": "Genome-scale Algorithmics"
+    },
+    {
+        "investigator": "Mannila, H.",
+        "name": "Data mining: Theory and Applications"
+    },
+    {
+        "investigator": "Münch, J.",
+        "name": "Software Factory"
+    },
+    {
+        "investigator": "Münch, J.",
+        "name": "Software Systems Engineering"
+    },
+    {
+        "investigator": "Myllymäki, P.",
+        "name": "Complex Systems Computation (CoSCo)"
+    },
+    {
+        "investigator": "Pasanen, T.",
+        "name": "Gamics Laboratory"
+    },
+    {
+        "investigator": "Rousu, J.",
+        "name": "Kernel Machines, Pattern Analysis and Computational Biology"
+    },
+    {
+        "investigator": "Tarkoma, S.",
+        "name": "Content-centric structures and networking (COSN)"
+    },
+    {
+        "investigator": "Toivonen, H.",
+        "name": "Discovery group: Data Mining and Computational Creativity"
+    },
+    {
+        "investigator": "Ukkonen, E.",
+        "name": "Combinatorial Pattern Matching"
+    },
+    {
+        "investigator": "Yangarber, R.",
+        "name": "Computational Linguistics"
+    }
+]

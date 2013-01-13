@@ -1,0 +1,335 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import 'normalize.css';
+
+@media all {
+    html {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    a {
+        color: #27638C;
+    }
+}
+
+@media screen {
+    #header {
+        background: #E9AF43 no-repeat;
+        padding: 0.4em 0.7em 0.4em;
+        color: #FFF;
+        font-size: 1rem;
+        border-bottom: 1px solid #AAA;
+    }
+    #header::before {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: no-repeat url(img/logo.png);
+        opacity: 0.35;
+    }
+    #header h1 {
+        margin: 0;
+        font-size: 1.4em;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    #header .desc {
+        font-size: 0.75em;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+    #header .university, #header .faculty {
+        display: block;
+        font-size: 0.8em;
+        font-weight: 600;
+        color: #656565;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0.4em 0;
+    }
+    #header .faculty {
+        color: #FFF;
+    }
+    #header h1, #header .desc {
+        text-shadow: 0 0 2px #692F13;
+    }
+    #nav ul {
+        padding: 0;
+        margin: 0.5em 0 0;
+    }
+    #nav li {
+        box-sizing: border-box;
+        display: block;
+        border: 1px solid #AAA;
+        margin: 1% 0;
+        background: -webkit-linear-gradient(top, rgba(254,216,115,1) 0%,rgba(255,172,60,1) 100%);
+    }
+    #nav a {
+        display: block;
+        border: 1px solid #FFF;
+        padding: 0 0.7em;
+        color: #000;
+        text-decoration: none;
+        font-size: 0.80rem;
+        font-weight: 600;
+        line-height: 1.9;
+    }
+    #nav .curr, #nav li:hover {
+        background: #E8EBFB;
+        border-color: #E8EBFB;
+    }
+    #nav .curr a, #nav li:hover a {
+        border-color: #E8EBFB;
+    }
+
+    #main {
+        color: #333;
+        line-height: 1.5;
+        min-height: 100px;
+        padding: 1.5em 1em 1em;
+    }
+    #main::before {
+        content: " ";
+        display: block;
+        width: 100%;
+        height: 25px;
+        background: -webkit-linear-gradient(top, rgba(232,235,251,1) 0%, rgba(255,232,232,0) 100%);
+        position: absolute;
+        margin: -1.5em -1em -25px -1em;
+    }
+
+    #main ul {
+        padding: 0;
+    }
+    #main li {
+        list-style: none;
+        background: no-repeat 0 0.6em url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAMAAABRhm3UAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFNTU1////X1o2pgAAAAJ0Uk5T/wDltzBKAAAAGUlEQVR42mJgZGRgBGMGBijFgMwDygEEGAABkwAWLeGhLQAAAABJRU5ErkJggg==);
+        padding-left: 13px;
+        margin: 0.3em 0;
+    }
+
+    #stories {
+        font-size: 1rem;
+    }
+    #stories article {
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        border-bottom: 1px dotted #AAA;
+    }
+    #stories article:last-child {
+        border-bottom: 0;
+    }
+    #stories h1 {
+        font-size: 1em;
+        margin: 0 0 0.5em;
+    }
+    #stories h1 a {
+        text-decoration: none;
+    }
+    #stories p {
+        font-size: 0.8em;
+        margin: 0.5em 0;
+    }
+    #stories .intro {
+        width: 100%;
+        overflow: hidden;
+    }
+    #stories .more {
+        font-size: 0.8em;
+        display: inline-block;
+        padding-top: 0.5em;
+    }
+    #stories img {
+        max-width: 100%;
+    }
+
+    #news {
+    }
+    .news {
+        border: 1px solid #FF9F17;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        margin-bottom: 1em;
+        padding: 0.5em 0.7em;
+    }
+    .news h1 {
+        font-size: 1.3em;
+        color: #444;
+        margin: 0 0 0.2em;
+        background: no-repeat -4px center url(data:image/png;base64,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);
+        background-size: 1.5em 1.5em;
+        line-height: 1.5;
+        padding-left: 1.7em;
+    }
+    .news ul {
+        list-style: none;
+        padding: 0;
+        margin: 0.5em 0;
+    }
+
+    #courses-and-exams, #research-groups {
+        font-size: 0.9rem;
+        margin-bottom: 2em;
+    }
+    #courses-and-exams h1, #research-groups h1 {
+        margin: 0 0 0.5em 0;
+        font-size: 1.2em;
+    }
+
+    #research-groups a {
+        font-weight: 600;
+    }
+    #research-groups .investigator {
+        font-weight: normal;
+    }
+
+    footer {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+        color: #444;
+    }
+    footer p {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #header {
+        background-image: url(img/logo.png);
+        background-position: 10px 17px;
+        background-size: 70px 70px;
+    }
+    #header::before {
+        display: none;
+    }
+    #header h1 {
+        margin-top: 0.5em;
+    }
+    #header .desc {
+        max-width: 500px;
+    }
+    #header h1, #header .desc, #header .university, #header .faculty {
+        margin-left: 85px;
+    }
+    #nav li {
+        display: inline-block;
+        width: 49%;
+        margin-left: 2%;
+    }
+    #nav li:nth-child(1), #nav li:nth-child(2n+1) {
+        margin-left: 0;
+    }
+
+    #stories img {
+        float: left;
+        margin-right: 1em;
+        margin-bottom: 0.5em;
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 630px) {
+    #nav li {
+        width: 32.66%;
+        margin: 0.5% 0 0.5% 1%;
+    }
+    #nav li:nth-child(2n+1) {
+        margin-left: 1%;
+    }
+    #nav li:nth-child(3n+1) {
+        margin-left: 0;
+    }
+
+    #main {
+        display: -webkit-flex;
+        -webkit-align-items: flex-start;
+    }
+    #stories, #courses-and-exams, #research-groups {
+        -webkit-flex: 1;
+        margin: 1em;
+    }
+    #news, #news-studies {
+        width: 35%;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    #header {
+        background-size: auto auto;
+        padding-bottom: 0;
+    }
+    #header h1 {
+        margin-top: 0.5em;
+        font-size: 1.6em;
+    }
+    #header h1, #header .desc, #header .university, #header .faculty {
+        margin-left: 120px;
+    }
+    #nav ul {
+        margin-top: 1em;
+        margin-bottom: -1px;
+    }
+    #nav li {
+        width: auto;
+        margin: 0 0.3em 0 0;
+    }
+    #nav li:nth-child(n) {
+        margin-left: 0;
+    }
+    #nav a {
+        padding: 0 0.5em;
+        border-bottom: 0;
+    }
+
+    #courses-and-exams h1, #research-groups h1 {
+        font-size: 1.3em;
+    }
+    #stories h1 {
+        font-size: 1.1em;
+    }
+    .news {
+        padding: 1.2em 1.5em;
+    }
+    .news h1 {
+        font-size: 1.4em;
+        line-height: 2.2;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #header .university, #header .faculty {
+        position: absolute;
+        top: 0.90em;
+        right: 1em;
+    }
+    #header .faculty {
+        top: 2em;
+    }
+    #nav ul {
+        margin-top: 2.5em;
+        margin-left: 1.5em;
+    }
+}
+
+@media screen and (min-width: 910px) {
+    html {
+        background: #DDD;
+        height: 100%;
+    }
+    body {
+        position: relative;
+        width: 900px;
+        min-height: 100%;
+        margin: 0 auto;
+        background: #FFF;
+        border: 1px solid #AAA;
+        border-width: 0 1px;
+        box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+    }
+}
