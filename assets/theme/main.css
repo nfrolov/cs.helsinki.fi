@@ -75,6 +75,13 @@
         font-weight: 600;
         line-height: 1.9;
     }
+    #nav .curr, #nav li:hover {
+        background: #E8EBFB;
+        border-color: #E8EBFB;
+    }
+    #nav .curr a, #nav li:hover a {
+        border-color: #E8EBFB;
+    }
 
     #main {
         color: #333;
@@ -163,6 +170,7 @@
 
     #courses-and-exams, #research-groups {
         font-size: 0.9rem;
+        margin-bottom: 2em;
     }
     #courses-and-exams h1, #research-groups h1 {
         margin: 0 0 0.5em 0;
@@ -216,12 +224,12 @@
     #stories img {
         float: left;
         margin-right: 1em;
-        marign-bottom: 1em;
+        margin-bottom: 0.5em;
         max-width: 200px;
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 630px) {
     #nav li {
         width: 32.66%;
         margin: 0.5% 0 0.5% 1%;
@@ -242,12 +250,12 @@
         margin: 1em;
     }
     #news, #news-studies {
-        width: 250px;
+        width: 35%;
         margin-left: 1em;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 830px) {
     #header {
         background-size: auto auto;
         padding-bottom: 0;
@@ -273,13 +281,6 @@
     #nav a {
         padding: 0 0.5em;
         border-bottom: 0;
-    }
-    #nav .curr, #nav li:hover {
-        background: #E8EBFB;
-        border-color: #E8EBFB;
-    }
-    #nav .curr a, #nav li:hover a {
-        border-color: #E8EBFB;
     }
 
     #courses-and-exams h1, #research-groups h1 {
