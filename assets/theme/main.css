@@ -92,7 +92,11 @@
         margin: -1.5em -1em -25px -1em;
     }
 
+    #main ul {
+        padding: 0;
+    }
     #main li {
+        list-style: none;
         background: no-repeat 0 0.6em url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAMAAABRhm3UAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFNTU1////X1o2pgAAAAJ0Uk5T/wDltzBKAAAAGUlEQVR42mJgZGRgBGMGBijFgMwDygEEGAABkwAWLeGhLQAAAABJRU5ErkJggg==);
         padding-left: 13px;
         margin: 0.3em 0;
@@ -157,16 +161,19 @@
         margin: 0.5em 0;
     }
 
-    #courses-and-exams {
+    #courses-and-exams, #research-groups {
         font-size: 0.9rem;
     }
-    #courses-and-exams h1 {
+    #courses-and-exams h1, #research-groups h1 {
         margin: 0 0 0.5em 0;
         font-size: 1.2em;
     }
-    #courses-and-exams ul {
-        list-style: none;
-        padding: 0;
+
+    #research-groups a {
+        font-weight: 600;
+    }
+    #research-groups .investigator {
+        font-weight: normal;
     }
 
     footer {
@@ -230,7 +237,7 @@
         display: -webkit-flex;
         -webkit-align-items: flex-start;
     }
-    #stories, #courses-and-exams {
+    #stories, #courses-and-exams, #research-groups {
         -webkit-flex: 1;
         margin: 1em;
     }
@@ -275,7 +282,7 @@
         border-color: #E8EBFB;
     }
 
-    #courses-and-exams h1 {
+    #courses-and-exams h1, #research-groups h1 {
         font-size: 1.3em;
     }
     #stories h1 {
