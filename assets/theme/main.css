@@ -92,6 +92,12 @@
         margin: -1.5em -1em -25px -1em;
     }
 
+    #main li {
+        background: no-repeat 0 0.6em url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAMAAABRhm3UAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFNTU1////X1o2pgAAAAJ0Uk5T/wDltzBKAAAAGUlEQVR42mJgZGRgBGMGBijFgMwDygEEGAABkwAWLeGhLQAAAABJRU5ErkJggg==);
+        padding-left: 13px;
+        margin: 0.3em 0;
+    }
+
     #stories {
         font-size: 1rem;
     }
@@ -128,11 +134,11 @@
     }
 
     #news {
+    }
+    .news {
         border: 1px solid #FF9F17;
         border-radius: 4px;
         font-size: 0.8rem;
-    }
-    .news {
         margin-bottom: 1em;
         padding: 0.5em 0.7em;
     }
@@ -150,10 +156,17 @@
         padding: 0;
         margin: 0.5em 0;
     }
-    .news li {
-        background: no-repeat 0 8px url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAMAAABRhm3UAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFNTU1////X1o2pgAAAAJ0Uk5T/wDltzBKAAAAGUlEQVR42mJgZGRgBGMGBijFgMwDygEEGAABkwAWLeGhLQAAAABJRU5ErkJggg==);
-        padding-left: 13px;
-        margin: 0.3em 0;
+
+    #courses-and-exams {
+        font-size: 0.9rem;
+    }
+    #courses-and-exams h1 {
+        margin: 0 0 0.5em 0;
+        font-size: 1.2em;
+    }
+    #courses-and-exams ul {
+        list-style: none;
+        padding: 0;
     }
 
     footer {
@@ -217,9 +230,11 @@
         display: -webkit-flex;
         -webkit-align-items: flex-start;
     }
-    #stories {
+    #stories, #courses-and-exams {
+        -webkit-flex: 1;
+        margin: 1em;
     }
-    #news {
+    #news, #news-studies {
         width: 250px;
         margin-left: 1em;
     }
@@ -260,6 +275,9 @@
         border-color: #E8EBFB;
     }
 
+    #courses-and-exams h1 {
+        font-size: 1.3em;
+    }
     #stories h1 {
         font-size: 1.1em;
     }
