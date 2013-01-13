@@ -25,4 +25,10 @@ require(['jquery'], function ($) {
             init(el);
         });
     });
+    $('#research-groups').each(function () {
+        var el = this;
+        require(['app/init.research-groups'], function (init) {
+            init(el);
+        });
+    });
 });
